@@ -2,17 +2,6 @@
 #include <string>
 using namespace std;
 
-garis(){
-	int max, i;
-	string pilih = "-";
-	max = 30;
-	
-	for(i=1; i <= max; i++){
-		cout << pilih;
-	}
-	cout << endl;
-}
-
 int main(){
 	string namaBarang,kodeBarang;
 	int jumlah,kode,harga,bayar;
